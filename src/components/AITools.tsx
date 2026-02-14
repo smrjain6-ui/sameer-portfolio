@@ -7,10 +7,10 @@ import { aiTools, workflowPlaceholders } from "@/lib/data";
 export default function AITools() {
   return (
     <section id="ai-tools" className="section-shell">
-      <div className="mx-auto max-w-[1100px] px-6">
+      <div className="content-wrap">
         <FadeInOnScroll>
           <h2 className="mb-4 font-serif text-4xl">What I&apos;m Building with AI</h2>
-          <p className="mb-10 max-w-3xl text-textSecondary">
+          <p className="mb-10 max-w-3xl text-[1.05rem] leading-8 text-textSecondary">
             I&apos;m deeply curious about how AI can augment growth workflows, automate the mundane, and unlock new
             possibilities. Here&apos;s what I&apos;ve been experimenting with.
           </p>
@@ -22,7 +22,7 @@ export default function AITools() {
             <FadeInOnScroll key={tool.title}>
               <motion.article
                 whileHover={{ y: -4 }}
-                className="h-full rounded-xl border border-borderSoft bg-bgCard p-5 shadow-sm transition-shadow hover:shadow-md"
+                className="h-full rounded-xl border border-borderSoft bg-bgCard p-5 shadow-sm transition-shadow hover:shadow-lg"
               >
                 <div className="mb-4 border-l-2 border-accentAi pl-4">
                   <p className="mb-1 text-2xl">{tool.emoji}</p>

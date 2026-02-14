@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="mx-auto max-w-[720px] px-6 text-center">
         <FadeInOnScroll>
           <h2 className="mb-4 font-serif text-4xl">Get in Touch</h2>
-          <p className="mb-10 text-textSecondary">
+          <p className="mb-10 text-[1.05rem] leading-8 text-textSecondary">
             Want to chat about growth, AI, or business? I&apos;d love to hear from you.
           </p>
         </FadeInOnScroll>

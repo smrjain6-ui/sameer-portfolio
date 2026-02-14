@@ -11,10 +11,10 @@ export default function Writing({
 }) {
   return (
     <section id="writing" className="section-shell">
-      <div className="mx-auto max-w-[1100px] px-6">
+      <div className="content-wrap">
         <FadeInOnScroll>
           <h2 className="mb-4 font-serif text-4xl">Writing</h2>
-          <p className="mb-12 max-w-3xl text-textSecondary">
+          <p className="mb-12 max-w-3xl text-[1.05rem] leading-8 text-textSecondary">
             I&apos;ve been writing about business and startups for 5+ years. Unfiltered thoughts on what makes
             companies tick.
           </p>

@@ -1,0 +1,42 @@
+export const summaryBullets: Record<string, string[]> = {
+  "psychology-of-money": [
+    "Wealth is less about high income and more about sustained saving behavior over a long period.",
+    "Compounding works best when paired with patience, consistency, and the ability to avoid emotional decisions.",
+    "Personal finance is personal: risk tolerance, goals, and life context matter more than generic rules.",
+    "Reasonable decisions repeated consistently usually outperform highly optimized but fragile strategies.",
+    "Building a margin of safety creates resilience during uncertainty and protects long-term plans.",
+    "True financial freedom is control over your time, not just visible signs of being rich.",
+  ],
+  "100m-offers": [
+    "An irresistible offer combines clear outcomes, perceived certainty, speed, and low effort for the buyer.",
+    "Pricing power increases when the offer is differentiated and hard to compare with competitors.",
+    "Value can be amplified through bonuses, guarantees, and strong risk-reversal mechanisms.",
+    "The strongest offers solve high-pain problems for a clearly defined customer segment.",
+    "Messaging should make the promised transformation specific, measurable, and believable.",
+    "Offer quality has a direct impact on conversion rates, sales efficiency, and customer acquisition cost.",
+  ],
+  "on-writing-well": [
+    "Good writing is clear thinking expressed simply; remove clutter and keep every sentence purposeful.",
+    "Use plain language and concrete examples so readers understand the point quickly.",
+    "Rewrite aggressively: editing is where clarity, structure, and flow are actually built.",
+    "Adopt a distinct voice while prioritizing usefulness over decoration.",
+    "Strong structure guides readers from context to insight without confusion.",
+    "Respect the reader's time by being concise, direct, and specific.",
+  ],
+  "almanack-naval-ravikant": [
+    "Create wealth by building products with leverage: code, media, and systems that scale.",
+    "Own equity in what you build to capture upside from long-term value creation.",
+    "Develop specific knowledge through curiosity and practice in areas where you have unfair advantage.",
+    "Play long-term games with long-term people to compound trust and opportunity.",
+    "Happiness improves with internal clarity, lower ego reactivity, and better mental habits.",
+    "Seek independence in work and life by prioritizing autonomy and accountability.",
+  ],
+  "steal-like-an-artist": [
+    "Creativity is recombination: study great work deeply and synthesize it into your own perspective.",
+    "Produce consistently; momentum from small daily outputs is better than waiting for inspiration.",
+    "Share work in public to get feedback loops and accelerate skill growth.",
+    "Constraints often improve originality by forcing focused problem solving.",
+    "Build your own taste by consuming quality inputs across disciplines.",
+    "Protect time and energy for creative work by designing reliable routines.",
+  ],
+};

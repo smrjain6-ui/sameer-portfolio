@@ -1,6 +1,6 @@
 "use client";
 
-import { Menu, X } from "lucide-react";
+import { Flame, Menu, Mountain, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { navLinks } from "@/lib/data";
 
@@ -34,12 +34,19 @@ export default function Navbar() {
   return (
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all ${
-        scrolled ? "border-b border-borderSoft bg-bgPrimary backdrop-blur" : "bg-transparent"
+        scrolled ? "border-b border-borderSoft bg-bgPrimary shadow-sm backdrop-blur" : "bg-transparent"
       }`}
     >
-      <nav className="mx-auto flex h-16 w-full max-w-[1100px] items-center justify-between px-6">
-        <a href="#home" className="font-serif text-xl tracking-tight">
-          Sameer Jain
+      <nav className="content-wrap flex h-16 items-center justify-between">
+        <a
+          href="#home"
+          className="max-w-[72%] font-serif text-base italic leading-snug tracking-tight text-textPrimary md:max-w-none md:text-[1.15rem]"
+        >
+          If there is no struggle, there is no progress.
+          <span className="ml-2 inline-flex items-center gap-1 align-middle text-accent">
+            <Flame size={16} />
+            <Mountain size={16} />
+          </span>
         </a>
 
         <button
@@ -50,12 +57,12 @@ export default function Navbar() {
           {open ? <X size={22} /> : <Menu size={22} />}
         </button>
 
-        <ul className="hidden items-center gap-6 text-sm md:flex">
+        <ul className="hidden items-center gap-7 text-sm md:flex">
           {navLinks.map((link) => (
             <li key={link.href}>
               <a
                 href={link.href}
-                className={`link-underline ${
+                className={`link-underline pb-0.5 ${
                   active === link.href ? "text-accent" : "text-textSecondary hover:text-textPrimary"
                 }`}
               >
@@ -68,12 +75,12 @@ export default function Navbar() {
 
       {open ? (
         <div className="border-b border-borderSoft bg-bgPrimary md:hidden">
-          <ul className="mx-auto flex max-w-[1100px] flex-col gap-4 px-6 py-4">
+          <ul className="content-wrap flex flex-col gap-4 py-4">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <a
                   href={link.href}
-                  className="text-textSecondary"
+                  className={`text-sm ${active === link.href ? "text-accent" : "text-textSecondary"}`}
                   onClick={() => setOpen(false)}
                 >
                   {link.label}
