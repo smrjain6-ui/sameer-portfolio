@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #fafaf8;
+  --bg-card: #ffffff;
+  --text-primary: #1a1a1a;
+  --text-secondary: #6b6b6b;
+  --text-tertiary: #9ca3af;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --accent-ai: #7c3aed;
+  --border: #e5e5e5;
+  --tag-bg: #f3f4f6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-dm-sans), sans-serif;
+}
+
+.section-shell {
+  @apply border-t border-borderSoft py-28 md:py-32;
+}
+
+.link-underline {
+  position: relative;
+  text-decoration: none;
+}
+
+.link-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+  background: currentColor;
+}
+
+.link-underline:hover::after {
+  transform: scaleX(1);
+}
+
+.prose-content {
+  @apply mx-auto max-w-prose px-6 pb-20 pt-36 leading-8 text-textSecondary;
+}
+
+.prose-content h1,
+.prose-content h2,
+.prose-content h3,
+.prose-content h4 {
+  @apply font-serif text-textPrimary;
+}
+
+.prose-content h1 {
+  @apply mb-8 text-4xl leading-tight md:text-5xl;
+}
+
+.prose-content h2 {
+  @apply mt-12 text-3xl;
+}
+
+.prose-content p,
+.prose-content ul,
+.prose-content ol {
+  @apply mb-6;
+}
+
+.prose-content a {
+  @apply link-underline text-accent;
+}
