@@ -17,6 +17,14 @@ export default function AITools() {
             I&apos;m deeply curious about how AI can augment growth workflows, automate the mundane, and unlock new
             possibilities. Here&apos;s what I&apos;ve been experimenting with.
           </p>
+          <a
+            href="https://github.com/smrjain6-ui"
+            target="_blank"
+            rel="noreferrer"
+            className="mb-10 inline-block text-sm font-medium text-accent link-underline"
+          >
+            Check out my GitHub profile →
+          </a>
         </FadeInOnScroll>
 
         <div className="grid gap-6 md:grid-cols-2">
