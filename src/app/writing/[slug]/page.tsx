@@ -36,7 +36,6 @@ export default function WritingPostPage({ params }: { params: { slug: string } }
         {post.category === "summary" ? "Book Summary" : "Case Study"}
       </p>
       <h1>{post.title}</h1>
-      <p className="text-sm text-textTertiary">{post.date}</p>
       {post.category === "summary" ? (
         <ul className="mt-8 space-y-3 pl-6">
           {bullets.map((point) => (

@@ -69,37 +69,41 @@ export const experience = [
   },
 ];
 
-export const aiTools = [
-  {
-    emoji: "🛠️",
-    title: "Vibe Coded Tool #1",
-    description: "[Title of the tool built on Emergent] Brief description of what it does and the problem it solves.",
-    tags: ["Emergent", "Vibe Coding", "AI"],
-  },
-  {
-    emoji: "🛠️",
-    title: "Vibe Coded Tool #2",
-    description: "[Title of the tool built on Emergent] Brief description of what it does and the problem it solves.",
-    tags: ["Emergent", "Vibe Coding", "AI"],
-  },
-  {
-    emoji: "🛠️",
-    title: "Vibe Coded Tool #3",
-    description: "[Title of the tool built on Emergent] Brief description of what it does and the problem it solves.",
-    tags: ["Emergent", "Vibe Coding", "AI"],
-  },
-  {
-    emoji: "🛠️",
-    title: "Vibe Coded Tool #4",
-    description: "[Title of the tool built on Emergent] Brief description of what it does and the problem it solves.",
-    tags: ["Emergent", "Vibe Coding", "AI"],
-  },
-];
-
 export const workflowPlaceholders = [
   "[Workflow 1 name] — brief description",
   "[Workflow 2 name] — brief description",
   "[Workflow 3 name] — brief description",
+];
+
+export const dailyAiStack = [
+  {
+    tool: "Claude Code",
+    purpose: "Working directly on local files and codebases on my laptop.",
+  },
+  {
+    tool: "Claude",
+    purpose: "Brainstorming ideas and drafting/refining docs and presentations.",
+  },
+  {
+    tool: "Perplexity Pro",
+    purpose: "Fast, reliable web research and source-backed exploration.",
+  },
+  {
+    tool: "Perplexity Tasks",
+    purpose: "Automated triggers for stock-price movement and latest news releases.",
+  },
+  {
+    tool: "Comet",
+    purpose: "Scanning Gmail quickly and fast-tracking shopping and purchase decisions.",
+  },
+  {
+    tool: "ChatGPT",
+    purpose: "Miscellaneous tasks, random thoughts, and quick practical questions.",
+  },
+  {
+    tool: "Nano Banana Pro",
+    purpose: "Image generation and visual concept creation.",
+  },
 ];
 
 export const podcasts = [
