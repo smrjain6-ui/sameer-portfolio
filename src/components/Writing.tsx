@@ -62,6 +62,15 @@ export default function Writing({
           </div>
         </FadeInOnScroll>
 
+        <FadeInOnScroll className="mt-12 rounded-xl border border-borderSoft bg-bgCard p-6">
+          <p className="mb-2 text-2xl">🏈</p>
+          <p className="text-textSecondary">I also write about the English Premier League on Medium.</p>
+          <p className="mt-2 text-sm italic text-textTertiary">PC (Pre ChatGPT era), written the old-school way.</p>
+          <a href="https://smrjain6.medium.com/" target="_blank" rel="noreferrer" className="link-underline mt-3 inline-block text-accent">
+            Read on Medium →
+          </a>
+        </FadeInOnScroll>
+
         <FadeInOnScroll className="mt-12">
           <h3 className="mb-5 font-serif text-2xl">Book Summaries</h3>
           <div className="grid gap-4 md:grid-cols-3">
@@ -69,14 +78,6 @@ export default function Writing({
               <BlogCard key={post.slug} title={post.title} excerpt={post.excerpt} slug={post.slug} />
             ))}
           </div>
-        </FadeInOnScroll>
-
-        <FadeInOnScroll className="mt-12 rounded-xl border border-borderSoft bg-bgCard p-6">
-          <p className="mb-2 text-2xl">🏈</p>
-          <p className="text-textSecondary">I also write about the English Premier League on Medium.</p>
-          <a href="https://smrjain6.medium.com/" target="_blank" rel="noreferrer" className="link-underline mt-3 inline-block text-accent">
-            Read on Medium →
-          </a>
         </FadeInOnScroll>
       </div>
     </section>

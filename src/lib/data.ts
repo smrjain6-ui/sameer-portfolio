@@ -77,6 +77,10 @@ export const workflowPlaceholders = [
 
 export const dailyAiStack = [
   {
+    tool: "Codex",
+    purpose: "Vibe coding, rapid prototyping, and shipping iterations quickly.",
+  },
+  {
     tool: "Claude Code",
     purpose: "Working directly on local files and codebases on my laptop.",
   },
@@ -99,6 +103,10 @@ export const dailyAiStack = [
   {
     tool: "ChatGPT",
     purpose: "Miscellaneous tasks, random thoughts, and quick practical questions.",
+  },
+  {
+    tool: "Notion",
+    purpose: "Daily notes, to-do lists, and written summaries from videos and learnings.",
   },
   {
     tool: "Nano Banana Pro",
