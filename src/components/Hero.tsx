@@ -35,10 +35,6 @@ export default function Hero() {
           Yogami (Founder&apos;s Office). I write about business, build AI tools, and think a lot about what
           makes companies tick.
         </p>
-        <p className="mt-7 inline-flex rounded-full border border-borderSoft bg-bgCard px-4 py-1.5 text-sm font-medium text-textPrimary">
-          ✨ Open to opportunities
-        </p>
-
         <div className="mt-8 flex flex-wrap gap-5 text-sm text-textSecondary">
           {social.map((item) => (
             <a key={item.label} className="link-underline hover:text-accent" href={item.href} target="_blank" rel="noreferrer">
