@@ -8,6 +8,21 @@ export const navLinks = [
 
 export const experience = [
   {
+    role: "Associate Growth Manager",
+    org: "Pocket FM",
+    location: "Bangalore",
+    date: "Mar 2026 – Present",
+    emoji: "🎧",
+    impact: "Up to ~90% Retention Uplift",
+    highlights: [
+      "Lead a 20+ member team within the GenAI Growth team for the US market, producing AI-generated visuals at scale for top-performing shows.",
+      "Drive creative programs designed to improve activation, conversion, and retention across priority content launches.",
+      "Build and own tools and workflows for high-quality, scalable content production across genres.",
+      "Run A/B experiments that have delivered up to ~90% uplift in retention.",
+    ],
+    tags: ["GenAI Growth", "US Market", "Team Leadership", "Content Operations", "A/B Testing"],
+  },
+  {
     role: "Growth Manager",
     org: "Ten x You",
     location: "Bangalore",
